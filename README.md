@@ -7,9 +7,11 @@ This script allows you to interact with the HaveIBeenPwned (HIBP) API to check e
 > Purchase from HaveIBeenPwned https://haveibeenpwned.com/API/Key. Add your API Key to line 19. 
 
 ## Use Cases
-**1. Employee Email Monitoring:** Run employee email addresses through this script and output the results to a file. The resulting CSV file can be ingested into SIEM tools to enhance Risk-Based Analytics (RBA) by adding breach risk indicators.
+**1. Employee Email Monitoring:** Past breaches can indicate that users are using their organizational email addresses to sign up for third-party services, which could be problematic depending on the SLA. Also useful in helping identify potential password reuse.
 
-**2. Breach Monitoring:** Regularly monitor for new breaches to keep your organization's security posture up-to-date.
+**2. RBA (Risk-Based Analysis):** The resulting CSV file can be ingested into SIEM tools to enhance Risk-Based Analytics (RBA) by adding breach risk indicators. Ensure to adjust for time since breach, and relevant breach data (plain-text passwords have a greater risk than gender).
+
+**2. Breach Monitoring:** Regularly monitor for new breaches to keep your organization's security posture up-to-date. Reach out to users and inform them to change password on third party sites.
 
 
 ## How to use
