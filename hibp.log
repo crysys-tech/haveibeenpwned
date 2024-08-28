@@ -1,0 +1,3 @@
+2024-08-28 04:35:49 INFO: account-exists@hibp-integration-tests.com: Breach found.
+2024-08-28 04:35:50 INFO: account-doesnt-exist@hibp-integration-tests.com: No breach found.
+2024-08-28 04:36:25 CRITICAL: [X] API Key is missing [X] HTTPS:401
